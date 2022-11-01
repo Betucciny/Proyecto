@@ -210,6 +210,14 @@ td{
     transition: all 300ms ease;
 }
 
+ .spaces{
+     width: 100%;
+ }
+
+ .spaces img{
+     width: 100%;
+ }
+
 @media (max-width: 1650px){
     body{
         background-size: auto 100% ;

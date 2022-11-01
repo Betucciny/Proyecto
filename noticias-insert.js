@@ -1,4 +1,4 @@
-const numXcont = 2;
+const numXcont = 3;
 
 class noticia {
     constructor(titulo, text, link, imagenes, alter, figcap) {

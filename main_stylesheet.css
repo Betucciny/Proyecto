@@ -49,6 +49,7 @@ body{
 }
 
 .top {
+    margin-bottom: 2rem;
     font-size: 0.5em;
     display: flex;
     flex-wrap: wrap;
@@ -68,7 +69,7 @@ body{
     height: calc(100vh - 8em);
     font-size: small;
     text-align: justify-all;
-    background-color: var(--dark80);
+    background-color: var(--dark60);
 }
 
 .left h2{
@@ -76,12 +77,14 @@ body{
 }
 
 main {
+    margin: 2rem ;
     width: 60vw;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     padding: 2rem;
+    background-color: var(--dark80);
 }
 
 

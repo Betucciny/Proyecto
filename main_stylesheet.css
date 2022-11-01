@@ -1,0 +1,139 @@
+:root {
+    --accent: #ea918d;
+    --accentHover: #de8a86;
+    --dark: #304659;
+    --dark80: rgba(48, 70, 89, 0.8);
+    --dark60: rgba(48, 70, 89, 0.6);
+    --light: #f5f9fc;
+    --transition: all 0.3s ease 0s;
+}
+
+html, body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    margin: 0;
+    height:100%;
+    scroll-behavior: unset;
+}
+body{
+    color: white;
+    background-image: linear-gradient(var(--dark60), var(--dark60)), url("images-index/fondo.jpg") ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vw 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+#pag {
+    font-size: xx-large;
+}
+
+.logo-container {
+    padding: 10px 20px;
+    margin: auto 0;
+}
+
+.nav {
+    color:white;
+    margin: auto 30px;
+    padding: 20px;
+    font-size: xx-large;
+}
+
+.top {
+    display: flex;
+    width: 100vw;
+    height: 92px;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.left {
+    margin: 2rem;
+    padding: 2rem;
+    top: 0;
+    position: sticky;
+    flex-direction: column;
+    width: 20vw;
+    height: 100vh;
+    font-size: small;
+    text-align: justify-all;
+    bottom: 80px;
+    background-color: var(--dark80);
+}
+
+
+main {
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+}
+
+@media (max-width: 1200px){
+    .left{
+        width: 100vw;
+        flex-direction: row;
+        border-right-style: none;
+        border-bottom-style: solid;
+        position: inherit;
+        height: 30vh;
+        overflow-y: hidden;
+        overflow-x: scroll;
+    }
+    main{
+        width: 100vw;
+    }
+}
+
+footer{
+    padding-left: 10px;
+    height: 80px;
+    min-height: available;
+    width: 100%;
+}
+
+figure{
+    display: inline-block;
+    margin: 0;
+}
+
+.center{
+    justify-content: center;
+}
+
+.spaces{
+    line-height: 25px;
+}
+
+.mosaic{
+    padding: 15px;
+}
+
+a, a:visited, a:active, a:link{
+
+    color: white;
+    text-decoration: none;
+    text-decoration-color: white;
+}
+
+a:hover {
+    size: 1.5em;
+}
+
+
+
+.mapag iframe{
+    width: 50vw;
+    height: 40vh;
+}
+
+td{
+    text-align: center;
+    width: available;
+    border-style: outset;
+    padding: .5em;
+}

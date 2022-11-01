@@ -188,6 +188,9 @@ td{
 }
 
 @media (max-width: 1350px){
+    body{
+        font-size: 14px;
+    }
     .nav h3{
         display: none;
     }

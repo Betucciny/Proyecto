@@ -20,6 +20,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:  100% 100%;
+    background-position: center;
     display: flex;
     flex-wrap: wrap;
     height: auto;
@@ -78,7 +79,7 @@ body{
 
 main {
     margin: 2rem ;
-    width: 60vw;
+    width: 55vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -151,7 +152,7 @@ td{
 
 .menu {
     align-self: center;
-    margin: 1em;
+    margin: 2em;
     display: none;
     padding: 14px 0;
     height: 32px;
@@ -189,7 +190,7 @@ td{
 
 @media (max-width: 1350px){
     body{
-        font-size: 14px;
+        background-size: auto 100% ;
     }
     .nav h3{
         display: none;

@@ -19,7 +19,7 @@ body{
     background-image: linear-gradient(var(--dark60), var(--dark60)), url("images-index/fondo.jpg") ;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 100vw 100vh;
+    background-size:  100% 100%;
     display: flex;
     flex-wrap: wrap;
     height: auto;

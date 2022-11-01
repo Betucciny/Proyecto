@@ -45,3 +45,4 @@ const figcap = [
     ' Centro Histórico. Diana Zempoalteca | El Sol de Tlaxcala'
 ]
 
+

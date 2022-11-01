@@ -16,9 +16,11 @@ class noticia {
         titulo.textContent = this.titulo;
         articulo.appendChild(titulo);
 
+        const contenedor = document.createElement('div');
+
         const texto = document.createElement('p');
         texto.textContent = this.text;
-        articulo.appendChild(texto);
+        contenedor.appendChild(texto);
 
         const figura = document.createElement('figure');
         const link = document.createElement('a');
@@ -33,7 +35,8 @@ class noticia {
         figcap.textContent = this.figcap;
         figura.appendChild(figcap);
 
-        articulo.appendChild(figura);
+        contenedor.appendChild(figura);
+        articulo.appendChild(contenedor);
         return articulo;
     }
 }

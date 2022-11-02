@@ -9,6 +9,8 @@
     <script src="noticias-list.js" defer></script>
     <script src="noticias-insert.js" defer></script>
     <script src="indexS.js" defer></script>
+    <script src="lugares-list.js" defer></script>
+    <script src="lugares-insert.js" defer></script>
 </head>
 <body>
 <header class="top">
@@ -16,7 +18,7 @@
         <a href="index.html"><img src="images-index/ms-icon-70x70.png" alt="Logo"></a>
         <b id="pag" class>Foráneos en Tlaxcala</b>
     </figure>
-    <div class="nav" >
+    <div class="nav">
         <a href="index.html"><h3>Inicio</h3></a>
         <a href="lugares.html"><h3>Lugares</h3></a>
         <a href="combis_menu.html"><h3>Combis</h3></a>
@@ -38,7 +40,6 @@
     </header>
 
 
-
 </aside>
 
 <main class="main">
@@ -56,31 +57,32 @@
         </ul>
     </div>
 
-    <section>
+    <section class="lugaresC">
         <div id="Recomendados">
             <header><h2>Recomendados 🤯</h2></header>
             <p>Aquí encontrarás nuestras recomendaciones, consejos y lo que no recomendamos.</p>
+            <section class="carrusel" data-index="0">
 
-            <article>
-                <header><h3></h3></header>
-                <p>
+                <button class="arrow lefta" data-index="0">
+                    <svg width="70px" height="80px" viewBox="0 0 50 80">
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"
+                                  stroke-linejoin="round" points="
+	                        45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                    </svg>
+                </button>
+                <article>
+                </article>
+                <button class="arrow righta" data-index="1">
+                    <svg width="70px" height="80px" viewBox="0 0 50 80">
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"
+                                  stroke-linejoin="round" points="
+	                           0.375,0.375 45.63,38.087 0.375,75.8 "/>
+                    </svg>
+                </button>
 
-                </p>
-                <figure>
-                    <a href="#">
-                        <img src="" alt="">
-                    </a>
-                    <figcaption>
+            </section>
 
-                    </figcaption>
-                </figure>
-                <h4></h4>
-                <p>
 
-                </p>
-                <h4>Nuestra punctuation</h4>
-                <span class="fa fa-star checked"></span>
-            </article>
 
         </div>
 
@@ -88,26 +90,28 @@
         <div id="Recorrido">
             <header><h2>Un recorrido por el estado 🪐</h2></header>
             <p>Una vida fuera de la ciudad aquí encontrarás los mejores lugares al rededor del estado.</p>
-            <article>
-                <header><h3></h3></header>
-                <p>
+            <section class="carrusel" data-index="1">
 
-                </p>
-                <figure>
-                    <a href="#">
-                        <img src="" alt="">
-                    </a>
-                    <figcaption>
+                <button class="arrow lefta" data-index="0">
+                    <svg width="70px" height="80px" viewBox="0 0 50 80">
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"
+                                  stroke-linejoin="round" points="
+	                        45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                    </svg>
+                </button>
+                <article>
 
-                    </figcaption>
-                </figure>
-                <h4></h4>
-                <p>
+                </article>
+                <button class="arrow righta" data-index="1">
+                    <svg width="70px" height="80px" viewBox="0 0 50 80">
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"
+                                  stroke-linejoin="round" points="
+	                           0.375,0.375 45.63,38.087 0.375,75.8 "/>
+                    </svg>
+                </button>
 
-                </p>
-                <h4>Nuestra punctuation</h4>
-                <span class="fa fa-star checked"></span>
-            </article>
+            </section>
+
 
         </div>
 
@@ -117,27 +121,27 @@
                 Todo lugar tiene lugares esenciales para sobrevivir y disfrutar de la vida aquí te diremos donde
                 encontrarlos.
             </p>
-            <article>
-                <header><h3></h3></header>
-                <p>
+            <section class="carrusel" data-index="2">
 
-                </p>
-                <figure>
-                    <a href="#">
-                        <img src="" alt="">
-                    </a>
-                    <figcaption>
+                <button class="arrow lefta" data-index="0">
+                    <svg width="70px" height="80px" viewBox="0 0 50 80">
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"
+                                  stroke-linejoin="round" points="
+	                        45.63,75.8 0.375,38.087 45.63,0.375 "/>
+                    </svg>
+                </button>
+                <article>
 
-                    </figcaption>
-                </figure>
-                <h4></h4>
-                <p>
+                </article>
+                <button class="arrow righta" data-index="1">
+                    <svg width="70px" height="80px" viewBox="0 0 50 80">
+                        <polyline fill="none" stroke="#FFFFFF" stroke-width="1" stroke-linecap="round"
+                                  stroke-linejoin="round" points="
+	                           0.375,0.375 45.63,38.087 0.375,75.8 "/>
+                    </svg>
+                </button>
 
-                </p>
-                <h4>Nuestra punctuation</h4>
-                <span class="fa fa-star checked"></span>
-            </article>
-            <hr>
+            </section>
         </div>
 
     </section>
@@ -153,12 +157,12 @@
     </p>
     <p>
         <em>
-            Copyright &copy; <time datetime="2022">2022</time>
+            Copyright &copy;
+            <time datetime="2022">2022</time>
             Proyecto V1.0 Herramientas para el desarrollo web
         </em>
     </p>
 </footer>
-
 
 
 </body>

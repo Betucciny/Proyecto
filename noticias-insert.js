@@ -1,4 +1,4 @@
-const numXcont = 3;
+const numXcont = 2;
 
 class noticia {
     constructor(titulo, text, link, imagenes, alter, figcap) {
@@ -41,6 +41,15 @@ class noticia {
     }
 }
 
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        let j = Math.floor(Math.random() * (i + 1));
+        let temp = array[i];
+        array[i] = array[j];
+        array[j] = temp;
+    }
+}
+
 const contenedor = document.querySelector('.left')
 const noticias = []
 
@@ -48,6 +57,8 @@ const noticias = []
 for(let i=0; i<numero; i++){
     noticias.push(new noticia(titulos[i],text[i],link[i],imagenes[i],alter[i],figcap[i]))
 }
+
+shuffleArray(noticias)
 
 for(let i=0; i<numXcont; i++){
     contenedor.appendChild(noticias[i].getHTML());

@@ -244,9 +244,7 @@ td{
     padding: .5em;
 }
 
-.oculto{
-    display: none;
-}
+
 
 #menu {
     align-self: center;
@@ -448,4 +446,105 @@ polyline {
 .nl{
     width: 95vw;
     margin: 2rem;
+}
+
+.contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    overflow-y: scroll;
+    background: rgba(41, 138, 204, 0.49);
+    height: 70vh;
+}
+
+#contenedor-tiendas{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 80%;
+}
+
+#tarjeta{
+    max-width: 75%;
+    padding: 2rem;
+}
+
+
+#tarjeta img{
+    max-width: 50%;
+}
+
+#tarjeta div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#tarjeta div figure{
+    width: 40%;
+}
+
+#tarjeta div figure img{
+    height: auto;
+    width: 100%;
+}
+
+
+
+
+
+#contenedor-tiendas div{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    width: available;
+    max-width: 40%;
+    margin: 1rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+
+#contenedor-tiendas div p{
+    width: 100%;
+
+}
+
+#contenedor-tiendas div img{
+    width: 100%;
+
+}
+
+.banner{
+    right: 0;
+    margin: 0;
+    padding: .5rem;
+    width: 17%;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    height: 68vh;
+    background-image: url('images-comida/Banner_side.jpg');
+    background-size: cover;
+    background-position: center center;
+    border: black solid 2px;
+}
+
+.banner h3, .banner p, .banner ul{
+    background: rgba(0, 0, 0, 0.59);
+    padding: 0;
+    margin: 0;
+}
+
+
+
+
+.oculto{
+    display: none;
+}
+
+#contenedor-tiendas.oculto{
+    display: none;
 }

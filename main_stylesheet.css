@@ -14,6 +14,7 @@ html, body {
     height:100%;
     scroll-behavior: unset;
 }
+
 body{
     color: white;
     background-image: linear-gradient(var(--dark60), var(--dark60)), url("images-index/fondo.jpg") ;
@@ -101,7 +102,7 @@ article{
 }
 
 .left {
-    margin: 2rem ;
+    margin: 0 2rem 2rem 2rem ;
     padding: 2rem;
     top: 2em;
     position: sticky;
@@ -160,7 +161,7 @@ article{
 }
 
 main {
-    margin: 2rem ;
+    margin: 0 2rem  2rem 2rem  ;
     width: 60vw;
     display: flex;
     flex-direction: column;
@@ -169,6 +170,8 @@ main {
     padding: 2rem;
     background-color: var(--dark80);
 }
+
+
 
 main h1 {
   font-family: 'Rubik', sans-serif;
@@ -440,4 +443,9 @@ polyline {
 
 .spaces a img{
     background: white;
+}
+
+.nl{
+    width: 95vw;
+    margin: 2rem;
 }

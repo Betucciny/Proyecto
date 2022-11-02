@@ -61,8 +61,11 @@ function cambio(event){
     }else{
         nextIndex++;
     }
-    if (nextIndex < 0 || nextIndex === lugaresL[tipo].length) {
-        return;
+    if (nextIndex < 0) {
+        nextIndex = lugaresL[tipo].length;
+    }
+    if (nextIndex === lugaresL[tipo].length) {
+        nextIndex = 0;
     }
     const artitulo = lugaresL[tipo][nextIndex];
     const caja = event.currentTarget.parentNode;

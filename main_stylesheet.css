@@ -86,11 +86,8 @@ article{
 }
 
 .nav a:hover::after {
-  opacity: 0.8;
-}
-
-.nav a.hover::after {
-  color: #1548ac;
+    opacity: 0.8;
+    color: #1548ac;
 }
 
 
@@ -221,7 +218,6 @@ figure{
 }
 
 a, a:visited, a:active, a:link{
-
     color: white;
     text-decoration: none;
     text-decoration-color: white;

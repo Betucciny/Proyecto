@@ -27,6 +27,10 @@ body{
     justify-content: center;
 }
 
+article{
+    padding: 1rem;
+}
+
 #pag {
     margin-left: 1rem;
     font-size: x-large;
@@ -288,7 +292,7 @@ td{
      width: 100%;
  }
 
- .spaces img {
+ .spaces a img {
    padding: 2rem;
    width: 100%;
    max-width: 400px;
@@ -385,7 +389,10 @@ td{
 
 .lugaresC div{
     border-bottom: solid white;
+}
 
+.historia{
+    border-top: solid white;
 }
 
 .carrusel{

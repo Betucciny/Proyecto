@@ -62,7 +62,7 @@ function cambio(event){
         nextIndex++;
     }
     if (nextIndex < 0) {
-        nextIndex = lugaresL[tipo].length;
+        nextIndex = lugaresL[tipo].length-1;
     }
     if (nextIndex === lugaresL[tipo].length) {
         nextIndex = 0;

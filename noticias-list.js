@@ -25,9 +25,9 @@ const link = [
 ]
 
 const imagenes = [
-    'images-noticias/noticia1.png',
-    'images-noticias/noticia2.png',
-    'images-noticias/noticia3.png'
+    'images-general/noticia1.png',
+    'images-general/noticia2.png',
+    'images-general/noticia3.png'
 ]
 
 const alter = [

@@ -341,6 +341,9 @@ td{
     main{
         width: 100vw;
     }
+    footer{
+        margin: 0;
+    }
 
     .nav a::after {
       content: none;

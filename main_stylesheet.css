@@ -51,18 +51,16 @@ body{
 }
 
 .top {
-    margin-bottom: 2rem;
     font-size: 0.5em;
     display: flex;
     flex-wrap: wrap;
     width: 100vw;
-    height: 92px;
     justify-content: space-between;
-    color: #fff;
+    color: white;
 }
 
 .left {
-    margin: 2rem 3rem 5rem 2rem;
+    margin: 2rem ;
     padding: 2rem;
     top: 2em;
     position: sticky;
@@ -78,10 +76,15 @@ body{
     margin-top: 0;
 }
 
-
+.left article{
+    width: 100%;
+    margin: .5rem;
+}
 
 .left article div{
+    width: 100%;
     display: flex;
+    align-items: stretch;
     flex-direction: row;
     text-align: justify-all;
 }
@@ -91,6 +94,7 @@ body{
 }
 
 .left article div figure{
+    margin: .5rem;
     padding: .5rem;
     width: 40%;
 }
@@ -113,10 +117,9 @@ main {
 
 
 footer{
-    padding-left: 10px;
     min-height: available;
     width: 100%;
-    margin-left: 20vw;
+    margin-left: calc(20vw + 8rem);
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -165,14 +168,10 @@ td{
 }
 
 .oculto{
-    /*display: none;*/
+    display: none;
 }
 
-#menu{
-    background: none;
-}
-
-.menu {
+#menu {
     align-self: center;
     margin: 2em;
     display: none;
@@ -189,12 +188,13 @@ td{
     -o-transition: all 300ms ease;
     transition: all 300ms ease;
 }
- .menu:hover {
+
+#menu:hover {
     -ms-transform: scale(1.1);
     transform: scale(1.1);
 }
 
- .menu .bar {
+#menu .bar {
     height: 4px;
     width: 30px;
     border-radius: 2px;
@@ -222,15 +222,14 @@ td{
     body{
         background-size: auto 100% ;
     }
-    .nav h3{
+    .nav{
         display: none;
     }
-    .menu{
+    #menu{
         display: block;
     }
     .left article{
         width: 100%;
-        height: 100%;
     }
     .left{
         width: 100vw;
@@ -239,10 +238,36 @@ td{
         border-bottom-style: solid;
         position: inherit;
         height: 40vh;
-        overflow-x: hidden;
-        overflow-y: scroll;
     }
     main{
         width: 100vw;
     }
+}
+
+.quieto{
+    overflow: hidden;
+}
+
+.menu-abierto {
+    display: flex;
+    position: absolute;
+    top: 0;
+    right: 0;
+    flex-direction: column;
+    padding: 0;
+    width: 30vw;
+
+}
+
+.menu-abierto a{
+    background: #304659;
+    border-collapse: collapse;
+    border-bottom: #f5f9fc;
+    border-bottom-style: solid;
+    border-left: #f5f9fc;
+    border-left-style: solid;
+}
+
+.menu-abierto a:hover{
+    background: rgba(52, 158, 164, 0.49);
 }

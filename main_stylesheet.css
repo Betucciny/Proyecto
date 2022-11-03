@@ -310,7 +310,7 @@ td{
   cursor: pointer;
   margin: 5px 5px 2rem 5px;
   box-shadow: 0 9px #999;
-     min-width: content-box;
+     min-width: min-content;
 }
 
 .button:active {

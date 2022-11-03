@@ -460,7 +460,7 @@ polyline {
 #contenedor-tiendas{
     display: flex;
     flex-wrap: wrap;
-    max-width: 80%;
+    max-width: 75%;
 }
 
 #tarjeta{
@@ -487,8 +487,6 @@ polyline {
     height: auto;
     width: 100%;
 }
-
-
 
 
 

@@ -19,16 +19,16 @@
 html, body {
     font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     margin: 0;
-    height:100%;
+    height: 100%;
     scroll-behavior: unset;
 }
 
-body{
+body {
     color: white;
-    background-image: linear-gradient(var(--dark60), var(--dark60)), url("images-index/fondo.jpg") ;
+    background-image: linear-gradient(var(--dark60), var(--dark60)), url("images-index/fondo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:  100% 100%;
+    background-size: 100% 100%;
     background-position: center;
     display: flex;
     flex-wrap: wrap;
@@ -36,7 +36,7 @@ body{
     justify-content: center;
 }
 
-article{
+article {
     padding: 1rem;
 }
 
@@ -53,45 +53,45 @@ article{
 }
 
 .logo-container img {
-  border-radius: 10%;
+    border-radius: 10%;
 }
 
 .logo {
-  display: flex;
-  align-items: center;
+    display: flex;
+    align-items: center;
 }
 
 .nav {
     display: flex;
     flex-direction: row;
-    color:white;
-    margin: auto ;
+    color: white;
+    margin: auto;
     padding: 1em;
     font-size: x-large;
 }
 
-.nav h3{
+.nav h3 {
     padding: .5em;
     margin: .5em;
 }
 
 .nav a {
-   line-height: 2em;
-   position: relative;
-   font-family: 'Rubik', sans-serif;
- }
+    line-height: 2em;
+    position: relative;
+    font-family: 'Rubik', sans-serif;
+}
 
 .nav a::after {
-  content: "";
-  background-color: #fdee87;
-  position: absolute;
-  left: 0;
-  top: 70%;
-  width: 100%;
-  height: 0.2rem;
+    content: "";
+    background-color: #fdee87;
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 100%;
+    height: 0.2rem;
 
-  opacity: 0;
-  transition: opacity 0.3s;
+    opacity: 0;
+    transition: opacity 0.3s;
 }
 
 .nav a:hover::after {
@@ -110,7 +110,7 @@ article{
 }
 
 .left {
-    margin: 0 2rem 2rem 2rem ;
+    margin: 0 2rem 2rem 2rem;
     padding: 2rem;
     top: 2em;
     position: sticky;
@@ -128,25 +128,25 @@ article{
 }
 
 .left h3 {
-  font-style: italic;
+    font-style: italic;
 }
 
 .left p {
-  font-family: 'Prompt', sans-serif;
-  font-weight: 500;
-  font-size: 1.1rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size: 1.1rem;
 }
 
 .left figcaption {
-  font-size: 0.9rem;
+    font-size: 0.9rem;
 }
 
-.left article{
+.left article {
     width: 90%;
     margin: .5rem;
 }
 
-.left article div{
+.left article div {
     width: 100%;
     display: flex;
     align-items: stretch;
@@ -154,22 +154,22 @@ article{
     text-align: justify-all;
 }
 
-.left article div p{
+.left article div p {
     width: 50%
 }
 
-.left article div figure{
+.left article div figure {
     margin: .5rem;
     padding: .5rem;
     width: 40%;
 }
 
-.left article div figure img{
+.left article div figure img {
     width: 100%;
 }
 
 main {
-    margin: 0 2rem  2rem 2rem  ;
+    margin: 0 2rem 2rem 2rem;
     width: 60vw;
     display: flex;
     flex-direction: column;
@@ -180,25 +180,24 @@ main {
 }
 
 
-
 main h1 {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 1000;
-  font-size: 3rem;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 1000;
+    font-size: 3rem;
 }
 
 main h2 {
-  font-family: 'Trispace', sans-serif;
-  font-size: 2rem;
+    font-family: 'Trispace', sans-serif;
+    font-size: 2rem;
 }
 
 main p {
-  font-family: 'Prompt', sans-serif;
-  font-weight: 500;
-  font-size: 1.3rem;
+    font-family: 'Prompt', sans-serif;
+    font-weight: 500;
+    font-size: 1.3rem;
 }
 
-footer{
+footer {
     min-height: available;
     width: 100%;
     margin-left: calc(20vw + 8rem);
@@ -207,28 +206,28 @@ footer{
     flex-direction: column;
 }
 
-figure{
+figure {
     display: inline-block;
     margin: 0;
 }
 
-.center{
+.center {
     justify-content: center;
 }
 
-.spaces{
+.spaces {
     line-height: 25px;
 }
 
-.mosaic{
+.mosaic {
     padding: 15px;
 }
 
 .mosaic figcaption {
-  font-weight: 700;
+    font-weight: 700;
 }
 
-a, a:visited, a:active, a:link{
+a, a:visited, a:active, a:link {
     color: white;
     text-decoration: none;
     text-decoration-color: white;
@@ -239,19 +238,17 @@ a:hover {
 }
 
 
-
-.mapag iframe{
+.mapag iframe {
     width: 50vw;
     height: 40vh;
 }
 
-td{
+td {
     text-align: center;
     width: available;
     border-style: outset;
     padding: .5em;
 }
-
 
 
 #menu {
@@ -282,7 +279,7 @@ td{
     width: 30px;
     border-radius: 2px;
     margin: 5px auto;
-    display:block;
+    display: block;
     z-index: 9999;
     background: #aaa;
     box-shadow: inset 0 1px 2px rgba(0, 0, 0, .5);
@@ -293,54 +290,55 @@ td{
     transition: all 300ms ease;
 }
 
- .spaces{
-     width: 100%;
- }
+.spaces {
+    width: 100%;
+}
 
- .spaces a img {
-   padding: 2rem;
-   width: 100%;
-   max-width: 400px;
-   height: auto;
- }
+.spaces a img {
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+}
 
- .button {
-  display: inline-block;
-  border-radius: 4px;
-  background-color: #f4511e;
-  border: none;
-  color: #FFFFFF;
-  text-align: center;
-  font-size: 28px;
-  padding: 2rem;
-  width: 20%;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px 5px 2rem 5px;
-  box-shadow: 0 9px #999;
-     min-width: min-content;
+.button {
+    line-height:0.1em;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 2em;
+    padding: 2rem;
+    transition: all 0.5s;
+    cursor: pointer;
+    min-width: min-content;
 }
 
 .button:active {
-  background-color: #3e8e41;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
-@media (max-width: 1650px){
-    body{
-        background-size: auto 100% ;
+@media (max-width: 1650px) {
+    body {
+        background-size: auto 100%;
     }
-    .nav{
+
+    .nav {
         display: none;
     }
-    #menu{
+
+    #menu {
         display: block;
     }
-    .left article{
+
+    .left article {
         width: 100%;
     }
-    .left{
+
+    .left {
         width: 100vw;
         flex-direction: row;
         border-right-style: none;
@@ -348,20 +346,22 @@ td{
         position: inherit;
         height: 40vh;
     }
-    main{
+
+    main {
         width: 100vw;
     }
-    footer{
+
+    footer {
         margin: 0;
     }
 
     .nav a::after {
-      content: none;
+        content: none;
     }
 
 }
 
-.quieto{
+.quieto {
     overflow: hidden;
 }
 
@@ -376,7 +376,7 @@ td{
     background: #f5f9fc;
 }
 
-.menu-abierto a{
+.menu-abierto a {
     background: #304659;
     border-collapse: collapse;
     border-bottom: #f5f9fc;
@@ -385,7 +385,7 @@ td{
     border-left-style: solid;
 }
 
-.menu-abierto a:hover{
+.menu-abierto a:hover {
     background: rgba(52, 158, 164, 0.49);
 }
 
@@ -396,15 +396,15 @@ td{
     height: 100%;
 }
 
-.lugaresC div{
+.lugaresC div {
     border-bottom: solid white;
 }
 
-.historia{
+.historia {
     border-top: solid white;
 }
 
-.carrusel{
+.carrusel {
     display: flex;
     flex-direction: row;
     align-content: space-between;
@@ -414,9 +414,9 @@ td{
 .carrusel button {
     background: transparent;
     border: 0;
-    outline:0;
+    outline: 0;
     height: 100%;
-    margin-top:30%;
+    margin-top: 30%;
 }
 
 .carrusel svg {
@@ -431,33 +431,34 @@ td{
     left: 0;
 }
 
-.lefta:hover polyline, .lefta:focus polyline, .righta:hover polyline, .righta:focus polyline{
+.lefta:hover polyline, .lefta:focus polyline, .righta:hover polyline, .righta:focus polyline {
     stroke-width: 3;
 }
 
 polyline {
     transition: all 250ms ease-in-out;
 }
-.carrusel article{
+
+.carrusel article {
     margin: 2rem;
     width: 85%;
     padding: 1rem;
 }
 
-.carrusel article figure img{
+.carrusel article figure img {
     max-width: 30vw;
 }
 
-.spaces a img{
+.spaces a img {
     background: white;
 }
 
-.nl{
+.nl {
     width: 95vw;
     margin: 2rem;
 }
 
-.contenedor{
+.contenedor {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
@@ -466,40 +467,39 @@ polyline {
     height: 70vh;
 }
 
-#contenedor-tiendas{
+#contenedor-tiendas {
     display: flex;
     flex-wrap: wrap;
     max-width: 80%;
 }
 
-#tarjeta{
+#tarjeta {
     max-width: 70%;
     padding: 2rem;
 }
 
 
-#tarjeta img{
+#tarjeta img {
     max-width: 50%;
 }
 
-#tarjeta div{
+#tarjeta div {
     display: flex;
     flex-direction: row;
     align-items: center;
 }
 
-#tarjeta div figure{
+#tarjeta div figure {
     width: 40%;
 }
 
-#tarjeta div figure img{
+#tarjeta div figure img {
     height: auto;
     width: 100%;
 }
 
 
-
-#contenedor-tiendas div{
+#contenedor-tiendas div {
     display: flex;
     flex-wrap: wrap;
     align-content: center;
@@ -512,17 +512,17 @@ polyline {
 }
 
 
-#contenedor-tiendas div p{
+#contenedor-tiendas div p {
     width: 100%;
 
 }
 
-#contenedor-tiendas div img{
+#contenedor-tiendas div img {
     width: 100%;
 
 }
 
-.banner{
+.banner {
     right: 0;
     margin: 0;
     padding: .5rem;
@@ -539,18 +539,18 @@ polyline {
     border: black solid 2px;
 }
 
-.banner h3, .banner p, .banner ul{
+.banner h3, .banner p, .banner ul {
     background: rgba(0, 0, 0, 0.59);
     padding: 0;
     margin: 0;
 }
 
 
-.oculto{
+.oculto {
     display: none;
 }
 
-#contenedor-tiendas.oculto{
+#contenedor-tiendas.oculto {
     display: none;
 }
 
@@ -599,27 +599,13 @@ polyline {
     box-sizing: border-box;
     width: 100%;
     height: 3rem;
-    margin-bottom: 1.2rem;
+    margin-bottom: 2rem;
     border-radius: 6px;
     border: 1px solid var(--azul-G);
-    padding-left: 1.3rem;
-    padding-right: -5rem;
     outline: none;
     font-family: Rubik, sans-serif;
-    font-weight: 700;
 }
 
-.form-container input[type="submit"] {
-    background-color: var(--verde);
-    text-transform: uppercase;
-    font-size: 1em;
-    border: none;
-    box-shadow: 0 3px 0 var(--verde-S);
-}
-
-.form-container input[type="submit"]:hover {
-    cursor: pointer;
-}
 
 .error-container {
     position: relative;
@@ -632,7 +618,7 @@ polyline {
 }
 
 .error {
-    color:  var(--rojo);
+    color: var(--rojo);
     font-style: italic;
     text-align: right;
     font-size: 0.8rem;
@@ -685,4 +671,9 @@ polyline {
         height: 80px;
     }
 
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
 }

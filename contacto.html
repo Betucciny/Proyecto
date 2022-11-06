@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Contacto</title>
+    <title>Login</title>
     <link rel="stylesheet" href="main_stylesheet.css">
     <link rel="shortcut icon" href="Logo_Rounded.ico" type="image/x-icon">
-
+    <script src="indexS.js" defer></script>
+    <script src="contactanos.js" defer></script>
+    <link rel="stylesheet" href="main_stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Rubik:wght@300&family=Secular+One&family=Trispace&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Rubik:wght@300&family=Secular+One&family=Trispace&display=swap"
+          rel="stylesheet">
 </head>
 <body>
 <header class="top">
@@ -20,7 +23,7 @@
             </div>
         </a>
     </figure>
-    <div class="nav" >
+    <div class="nav">
         <a href="index.html"><h3>Inicio</h3></a>
         <a href="lugares.html"><h3>Lugares</h3></a>
         <a href="combis_menu.html"><h3>Combis</h3></a>
@@ -36,7 +39,51 @@
         <div class="bar"></div>
     </div>
 </header>
+
+
 <main class="nl">
+
+    <div class="main-container">
+        <section>
+            <h1>Contáctanos</h1>
+            <p class="description">Mandanos tus opiniones y preguntas</p>
+        </section>
+
+        <section>
+            <div class="donate">
+                Recuerda que <span>puedes donarnos</span> para seguir creciendo
+            </div>
+            <div class="form-container">
+                <form class="" action="index.html" method="post">
+
+                    <input id="nameInput" type="text" placeholder="Nombre">
+                    <div id="nameError" class="error-container">
+                    </div>
+
+                    <input id="apellidoInput" type="text" placeholder="Apellido">
+                    <div id="apellidoError" class="error-container">
+
+                    </div>
+
+                    <input id="emailInput" type="text" placeholder="E-mail">
+                    <div id="emailError" class="error-container">
+
+                    </div>
+                    <input id="comentario" type="text" placeholder="Comentario">
+                    <div class="button-container">
+                        <input id="button-enviar" class="button" type="submit" value="Enviar">
+                        <input id="button-cancelar" class="button" type="reset" value="Cancelar">
+                    </div>
+
+
+                </form>
+
+                <p class="terminos">Al hacer clic en el botón, aceptarás nuestros <br><a href="#">Términos y
+                    condiciones</a></p>
+
+            </div>
+        </section>
+    </div>
 
 </main>
 
@@ -52,7 +99,8 @@
     </p>
     <p>
         <em>
-            Copyright &copy; <time datetime="2022">2022</time>
+            Copyright &copy;
+            <time datetime="2022">2022</time>
             Proyecto V2.0 Herramientas para el desarrollo web
         </em>
     </p>

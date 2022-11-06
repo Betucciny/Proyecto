@@ -6,6 +6,14 @@
     --dark60: rgba(48, 70, 89, 0.6);
     --light: #f5f9fc;
     --transition: all 0.3s ease 0s;
+    --rojo: hsl(0, 100%, 74%);
+    --verde: hsl(154, 59%, 51%);
+    --azul: hsl(248, 32%, 49%);
+    --azul-D: hsl(249, 10%, 26%);
+    --azul-G: hsl(246, 25%, 77%);
+    --azul-S: hsla(248, 32%, 49%, 0.5);
+    --verde-S: hsla(154, 59%, 51%, 0.5);
+    --blanco: white;
 }
 
 html, body {
@@ -538,12 +546,143 @@ polyline {
 }
 
 
-
-
 .oculto{
     display: none;
 }
 
 #contenedor-tiendas.oculto{
     display: none;
+}
+
+
+.main-container {
+    width: 50%;
+}
+
+.main-container section h1 {
+    width: 90%;
+    line-height: 2rem;
+    margin: -0.6rem auto 1rem;
+}
+
+.description {
+    text-align: center;
+    margin: 0 1.5rem 4rem;
+}
+
+.donate {
+    background-color: var(--azul);
+    width: 18rem;
+    height: 9rem;
+    padding: 1.8rem 2rem;;
+    text-align: center;
+    border-radius: 1rem;
+    margin: 2rem auto;
+    box-shadow: 0 6px 0 var(--azul-S);
+    box-sizing: border-box;
+}
+
+.donate span {
+    font-weight: 700;
+}
+
+.form-container {
+    background-color: var(--blanco);
+    border-radius: 1rem;
+    padding: 1.5rem;
+    box-shadow: 0 6px 0 var(--azul-D);
+    margin: auto;
+    padding-bottom: 1rem;
+}
+
+.form-container input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 3rem;
+    margin-bottom: 1.2rem;
+    border-radius: 6px;
+    border: 1px solid var(--azul-G);
+    padding-left: 1.3rem;
+    padding-right: -5rem;
+    outline: none;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+}
+
+.form-container input[type="submit"] {
+    background-color: var(--verde);
+    text-transform: uppercase;
+    font-size: 1em;
+    border: none;
+    box-shadow: 0 3px 0 var(--verde-S);
+}
+
+.form-container input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.error-container {
+    position: relative;
+}
+
+.icon-error {
+    position: absolute;
+    right: 1em;
+    top: -2.5em;
+}
+
+.error {
+    color:  var(--rojo);
+    font-style: italic;
+    text-align: right;
+    font-size: 0.8rem;
+    margin: -1rem 0 1.3rem;
+    font-weight: 700;
+}
+
+.terminos {
+    color: black;
+    font-size: 0.9rem;
+    margin: 0 14px;
+}
+
+.terminos a {
+    color: var(--rojo);
+    font-weight: 700;
+}
+
+@media (min-width: 1650px) {
+
+    .main-container {
+        display: flex;
+        width: 80%;
+    }
+
+    .main-container section h1 {
+        font-size: 3em;
+        width: 500px;
+        line-height: 55px;
+        margin-bottom: 30px;
+        margin-left: 10px;;
+    }
+
+    .description {
+        text-align: left;
+    }
+
+    section:nth-child(1) {
+        padding-top: 10rem;
+        padding-right: 5rem;
+        width: 570px;
+    }
+
+    section:nth-child(2) {
+        width: 540px;
+    }
+
+    .donate {
+        width: 100%;
+        height: 80px;
+    }
+
 }

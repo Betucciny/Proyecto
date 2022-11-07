@@ -336,6 +336,16 @@ td {
 
     .left article {
         width: 100%;
+        flex-direction: column;
+    }
+
+    .left article div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left article div p{
+        width: 100%;
     }
 
     .left {
@@ -345,6 +355,7 @@ td {
         border-bottom-style: solid;
         position: inherit;
         height: 40vh;
+        font-size: 1rem;
     }
 
     main {

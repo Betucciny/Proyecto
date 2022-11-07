@@ -1,14 +1,14 @@
-body {
+:root{
     --color-primary: #f4511e;
     --color-primary-dark: #007f67;
     --color-secondary: #252c6a;
     --color-error: #cc3333;
     --color-success: #4bb544;
     --border-radius: 1em;
-    
+}
 
+main {
     margin: 0;
-    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,7 +23,7 @@ body {
     padding: 2rem;
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.2);
     border-radius: 1rem;
-    background: #ffffff;
+    background: rgba(255, 255, 255, 0.4);
 }
 
 .container,
@@ -99,12 +99,10 @@ body {
     padding: 1rem 2rem;
     font-weight: bold;
     font-size: 1.1rem;
-    color: #ffffff;
     border: none;
     border-radius: var(--border-radius);
     outline: none;
     cursor: pointer;
-    /* background: var(--color-primary); */
     background: #f4511e;
 }
 

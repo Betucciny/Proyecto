@@ -1,64 +1,60 @@
 <!DOCTYPE html>
-<html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
     <title>Login</title>
-    <link rel="stylesheet" href="main_stylesheet.css">
-    <link rel="shortcut icon" href="Logo_Rounded.ico" type="image/x-icon">
-    <script src="indexS.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@200&family=Rubik:wght@300&family=Secular+One&family=Trispace&display=swap"
-          rel="stylesheet">
+    <link rel="stylesheet" href="mainLogin.css">
+    <script src="mainLogin.js"></script>
 </head>
 <body>
-<header class="top">
-    <figure class="logo-container">
-        <a href="index.html" class="logo">
-            <img src="images-index/ms-icon-70x70.png" alt="Logo">
-            <div id="pag">
-                Foraneos <br> Tlaxcala
+
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form__title">Login</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Usuario o email">
+                <div class="form__input-error-message"></div>
             </div>
-        </a>
-    </figure>
-    <div class="nav">
-        <a href="index.html"><h3>Inicio</h3></a>
-        <a href="lugares.html"><h3>Lugares</h3></a>
-        <a href="combis_menu.html"><h3>Combis</h3></a>
-        <a href="comida.html"><h3>Comida</h3></a>
-        <a href="historia_menu.html"><h3>Historia</h3></a>
-        <a href="comprar.html"><h3>Comprar</h3></a>
-        <a href="login.html"><h3>Login</h3></a>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Contraseña">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continuar</button>
+            <p class="form__text">
+                <a href="#" class="form__link">¿Olvidaste tu contraseña?</a>
+            </p>
+            <p class="form__text">
+                <a class="form__link" href="./" id="linkCreateAccount">¿No tienes cuenta? Crea una</a>
+            </p>
+        </form>
+
+
+        <form class="form form--hidden" id="createAccount">
+            <h1 class="form__title">Crea cuenta</h1>
+            <div class="form__message form__message--error"></div>
+            <div class="form__input-group">
+                <input type="text" id="signupUsername" class="form__input" autofocus placeholder="Usuario">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="text" class="form__input" autofocus placeholder="Correo electronico">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Contraseña">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input" autofocus placeholder="Confirma contraseña">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continuar</button>
+            <p class="form__text">
+                <a class="form__link" href="./" id="linkLogin">¿Ya tienes cuenta? entra</a>
+            </p>
+        </form>
+
+        
     </div>
-
-    <div id="menu">
-        <div class="bar"></div>
-        <div class="bar"></div>
-        <div class="bar"></div>
-    </div>
-</header>
-<main class="nl">
-
-</main>
-
-<footer class="nl">
-    <p>
-        <a href="index.html">Inicio</a> |
-        <a href="lugares.html">Lugares</a> |
-        <a href="combis_menu.html">Combis</a> |
-        <a href="comida.html">Comida</a> |
-        <a href="historia_menu.html">Historia</a> |
-        <a href="comprar.html">Comprar</a> |
-        <a href="login.html">Login</a>
-    </p>
-    <p>
-        <em>
-            Copyright &copy;
-            <time datetime="2022">2022</time>
-            Proyecto V2.0 Herramientas para el desarrollo web
-        </em>
-    </p>
-</footer>
-
 </body>
-</html>

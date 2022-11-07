@@ -302,6 +302,7 @@ td {
 }
 
 .button {
+    max-width: 48%;
     line-height:0.1em;
     border-radius: 4px;
     background-color: #f4511e;
@@ -312,7 +313,6 @@ td {
     padding: 2rem;
     transition: all 0.5s;
     cursor: pointer;
-    min-width: min-content;
 }
 
 .button:active {
@@ -369,7 +369,9 @@ td {
     .nav a::after {
         content: none;
     }
-
+    .button{
+        font-size: 1.5rem;
+    }
 }
 
 .quieto {
@@ -673,9 +675,6 @@ polyline {
         width: 570px;
     }
 
-    section:nth-child(2) {
-        width: 540px;
-    }
 
     .donate {
         width: 100%;

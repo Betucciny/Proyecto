@@ -387,6 +387,7 @@ td {
     padding: 0;
     width: 50vw;
     background: #f5f9fc;
+    z-index: 1;
 }
 
 .menu-abierto a {
@@ -605,7 +606,6 @@ polyline {
     padding: 1.5rem;
     box-shadow: 0 6px 0 var(--azul-D);
     margin: auto;
-    padding-bottom: 1rem;
 }
 
 .form-container input {

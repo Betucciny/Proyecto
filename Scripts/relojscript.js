@@ -2,7 +2,7 @@ const relojElement = document.querySelector(".reloj");
 const fechaElement = document.querySelector(".fecha");
 
 
-function formatReloj(date){
+function formatReloj(date) {
     const horas12 = date.getHours() % 12 || 12;
     const minutos = date.getMinutes();
     const segundos = date.getSeconds();
@@ -13,38 +13,37 @@ function formatReloj(date){
 }
 
 
-
 function formatFecha(date) {
     const DIAS = [
-      "Domingo",
-      "Lunes",
-      "Martes",
-      "Miercoles",
-      "Jueves",
-      "Viernes",
-      "Sabado"
+        "Domingo",
+        "Lunes",
+        "Martes",
+        "Miercoles",
+        "Jueves",
+        "Viernes",
+        "Sabado"
     ];
     const MES = [
-      "Enero",
-      "Febrero",
-      "Marzo",
-      "Abril",
-      "Mayo",
-      "Junio",
-      "Julio",
-      "Agosto",
-      "Septiembre",
-      "Octubre",
-      "Noviembre",
-      "Deciembre"
+        "Enero",
+        "Febrero",
+        "Marzo",
+        "Abril",
+        "Mayo",
+        "Junio",
+        "Julio",
+        "Agosto",
+        "Septiembre",
+        "Octubre",
+        "Noviembre",
+        "Deciembre"
     ];
-  
+
     return `${DIAS[date.getDay()]}, ${date.getDate()} ${MES[date.getMonth()]} ${date.getFullYear()}`;
 }
-  
-  setInterval(() => {
+
+setInterval(() => {
     const now = new Date();
     relojElement.textContent = formatReloj(now);
     fechaElement.textContent = formatFecha(now);
-  }, 200);
+}, 200);
   

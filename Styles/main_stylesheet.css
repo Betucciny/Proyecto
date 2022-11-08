@@ -25,7 +25,7 @@ html, body {
 
 body {
     color: white;
-    background-image: linear-gradient(var(--dark60), var(--dark60)), url("../images-index/fondo.jpg");
+    background-image: linear-gradient(var(--dark60), var(--dark60)), url("../Images/images-index/fondo.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
@@ -546,7 +546,7 @@ polyline {
     position: sticky;
     top: 0;
     height: 68vh;
-    background-image: url('../images-comida/Banner_side.jpg');
+    background-image: url('../Images/images-comida/Banner_side.jpg');
     background-size: cover;
     background-position: center center;
     border: black solid 2px;

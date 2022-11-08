@@ -26,10 +26,10 @@ const textoRe = [
 ]
 
 const imgRe = [
-    'images-lugares/escalinatas.png',
-    'images-lugares/zocalo.png',
-    'images-lugares/galerias.png',
-    'images-lugares/jardin.png'
+    'Images/images-lugares/escalinatas.png',
+    'Images/images-lugares/zocalo.png',
+    'Images/images-lugares/galerias.png',
+    'Images/images-lugares/jardin.png'
 ]
 
 const altRe = [
@@ -79,10 +79,10 @@ const textoRE = [
 ]
 
 const imgRE = [
-    'images-lugares/valquirico.png',
-    'images-lugares/malinche.png',
-    'images-lugares/huamantla.png',
-    'images-lugares/tlaxco.png'
+    'Images/images-lugares/valquirico.png',
+    'Images/images-lugares/malinche.png',
+    'Images/images-lugares/huamantla.png',
+    'Images/images-lugares/tlaxco.png'
 
 ]
 
@@ -135,10 +135,10 @@ const textoEs = [
 ]
 
 const imgEs = [
-    'images-lugares/autobuses.png',
-    'images-lugares/mercado.png',
-    'images-lugares/vertice.png',
-    'images-lugares/20nov.png'
+    'Images/images-lugares/autobuses.png',
+    'Images/images-lugares/mercado.png',
+    'Images/images-lugares/vertice.png',
+    'Images/images-lugares/20nov.png'
 ]
 
 const altEs = [

@@ -14,7 +14,7 @@ class comida {
         section.appendChild(titulo);
 
         const image = document.createElement('img');
-        image.src = 'images-comida/' + this.ref + '_logo.jpg';
+        image.src = 'Images/images-comida/' + this.ref + '_logo.jpg';
         section.appendChild(image);
 
         const info = document.createElement('h3')
@@ -47,7 +47,7 @@ class comida {
             const figura =  document.createElement('figure');
 
             const imagen = document.createElement('img');
-            imagen.src = 'images-comida/' + this.ref + sufijos[i];
+            imagen.src = 'Images/images-comida/' + this.ref + sufijos[i];
             figura.appendChild(imagen)
 
             const figc = document.createElement('figcaption');
@@ -76,7 +76,7 @@ class comida {
         div.appendChild(nombre);
 
         const img = document.createElement('img');
-        img.src = 'images-comida/' + this.ref + '_logo.jpg';
+        img.src = 'Images/images-comida/' + this.ref + '_logo.jpg';
         div.appendChild(img);
 
         return div;

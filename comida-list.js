@@ -49,7 +49,8 @@ const linkUbiC = [
     'https://goo.gl/maps/rQ9vitm6PZREJKcK7',
     'https://goo.gl/maps/f3fsR5AYNXVxWsLs8',
     'https://goo.gl/maps/Sj9WLtnH52XkvyCj6',
-    'https://g.page/taco-taz?share'
+    'https://g.page/taco-taz?share',
+    'https://goo.gl/maps/tArESzNPvX7bNJCR8'
 ]
 
 const horarioC = [
@@ -57,7 +58,8 @@ const horarioC = [
     'Lunes a Sabado: 17:00–00:00       Domingo: 17:00–22:00',
     'Lunes a Sabado: 09:00–22:00',
     'Lunes a Sabado: 10:00–18:00',
-    'Lunes a Sabado: 10:00–21:00       Domingo: 13:00–21:00'
+    'Lunes a Sabado: 10:00–21:00       Domingo: 13:00–21:00',
+    'Lunes a Sabado: 08:00–21:00       Domingo: 12:00–20:00'
 ]
 
 const refC = [

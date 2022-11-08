@@ -42,7 +42,7 @@ function validateEmail(valueInput, divInput, divError) {
 
 function showError(divInput, divError, error) {
     divInput.style.border = '1px solid red';
-    divError.innerHTML = `<img class="icon-error" src="images-index/icon-error.svg">
+    divError.innerHTML = `<img class="icon-error" src="../images-index/icon-error.svg">
                         <p class="error">${error}</p>`;
 }
 

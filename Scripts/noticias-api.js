@@ -52,7 +52,7 @@ function Obtener() {
             console.log(json);
             for(let i=0; i<3; i++){
                 let articulo = json.articles[i]
-                noticias.push(new noticia(articulo.title,articulo.description,articulo.url,articulo.urlToImage,'#',articulo.content))
+                noticias.push(new noticia(articulo.title,articulo.description,articulo.url,articulo.urlToImage,'Link',articulo.content))
                 contenedor.appendChild(noticias[i].getHTML());
             }
         });
